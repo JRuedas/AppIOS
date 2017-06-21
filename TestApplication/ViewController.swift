@@ -33,7 +33,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         clLocMan = CLLocationManager();
         clLocMan.delegate = self;
         clLocMan.desiredAccuracy = kCLLocationAccuracyKilometer;
-        arrayCoord = []     }
+        arrayCoord = []
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -91,22 +92,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         arrayCoord.append(clCoordinate)
         
-        let miPos: MKPointAnnotation = MKPointAnnotation()
-        miPos.coordinate = CLLocationCoordinate2DMake(clCoordinate.latitude, clCoordinate.longitude);
-        miPos.title = "Tu posicion"
+        mapView.showsUserLocation = true
         
-        mapView.addAnnotation(miPos)
-        
-        if(arrayCoord.count>=5){
-            clLocMan.stopUpdatingLocation();
-        }
+//        if(arrayCoord.count>=5){
+//            clLocMan.stopUpdatingLocation();
+//        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "locationList" {
-            if let destino = segue.destination as? LocationListControllerTableViewController {
-                destino.arrayCoord = self.arrayCoord
-            }
+            let destino = segue.destination as! LocationListControllerTableViewController
+            destino.arrayCoord = self.arrayCoord
         }
     }
 }

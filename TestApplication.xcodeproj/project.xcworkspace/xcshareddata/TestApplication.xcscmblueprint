@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "228FE42D765CDFE8C45C6B8A4B89267F08907895",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D84B4B1150874532FA06597E07DE0F1AB0EEB653" : 9223372036854775807,
+    "228FE42D765CDFE8C45C6B8A4B89267F08907895" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C4F4110C-C95A-4739-9875-8187E5F0F820",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D84B4B1150874532FA06597E07DE0F1AB0EEB653" : "",
+    "228FE42D765CDFE8C45C6B8A4B89267F08907895" : "TestApplication\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestApplication",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestApplication.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jruedas\/TestAppIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "228FE42D765CDFE8C45C6B8A4B89267F08907895"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jruedas",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D84B4B1150874532FA06597E07DE0F1AB0EEB653"
+    }
+  ]
+}
