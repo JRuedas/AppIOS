@@ -29,7 +29,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         clLocMan = CLLocationManager();
         clLocMan.delegate = self;
         clLocMan.desiredAccuracy = kCLLocationAccuracyKilometer;
@@ -38,7 +37,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func acciondelboton(_ sender: Any) {
@@ -53,7 +51,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             str = "Denegado";
             break;
         case .notDetermined:
-            str = "Se van a solicitar permisos";
+            str = "Solicitando permisos";
             clLocMan.requestWhenInUseAuthorization();
             break;
         case .authorizedAlways:
@@ -64,12 +62,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             getLocation();
         }
         
-        miLabel.text = str;
-        
+        miLabel2.text = str;
     }
     
     @IBAction func paraLectura(_ sender: Any) {
-        miLabel2.text = "Se han parado las lecturas";
+        miLabel2.text = "Lecturas detenidas";
         clLocMan.stopUpdatingLocation();
     }
     
@@ -84,7 +81,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let clCoordinate: CLLocationCoordinate2D = locations[0].coordinate;
-        miLabel2.text = "Longitud: \(clCoordinate.longitude) \n Latitud: \(clCoordinate.latitude)";
+        miLabel.text = "Longitud: \(clCoordinate.longitude)\nLatitud: \(clCoordinate.latitude)"
         
         let region = MKCoordinateRegion(center: clCoordinate, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
 
@@ -93,10 +90,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         arrayCoord.append(clCoordinate)
         
         mapView.showsUserLocation = true
-        
-//        if(arrayCoord.count>=5){
-//            clLocMan.stopUpdatingLocation();
-//        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
