@@ -12,10 +12,20 @@ class FormTableViewController: UITableViewController {
 
     @IBOutlet var fechaIncid: UITextField!
     
+    @IBOutlet weak var nombreTextF: UITextField!
+    
+    @IBOutlet weak var apellidosTextF: UITextField!
+    
+    @IBOutlet weak var emailTextF: UITextField!
+    
+    @IBOutlet weak var edadTextF: UITextField!
+    
+    @IBOutlet weak var sexoSegmentedC: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     @IBAction func editaFechaIncidencia(_ sender: UITextField) {
         let datePickerView:UIDatePicker = UIDatePicker()
         
