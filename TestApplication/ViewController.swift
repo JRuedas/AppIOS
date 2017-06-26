@@ -12,7 +12,6 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    
     @IBOutlet weak var miBoton: UIButton!
     
     @IBOutlet weak var miLabel: UILabel!

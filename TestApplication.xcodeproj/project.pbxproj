@@ -8,7 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		EF106B591EFA753A00F89E3C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF106B581EFA753A00F89E3C /* MapViewController.swift */; };
+		EF1392081F0109C60000688C /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1392071F0109C60000688C /* AnimationViewController.swift */; };
 		EF26E2061EFBD65000F081DD /* FormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E2051EFBD65000F081DD /* FormTableViewController.swift */; };
+		EF7A90161F012AA500F850BC /* ace.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FE91F012AA500F850BC /* ace.png */; };
+		EF7A90171F012AA500F850BC /* ace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FEA1F012AA500F850BC /* ace@2x.png */; };
+		EF7A90181F012AA500F850BC /* ace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FEB1F012AA500F850BC /* ace@3x.png */; };
+		EF7A90191F012AA500F850BC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FEC1F012AA500F850BC /* back.png */; };
+		EF7A901A1F012AA500F850BC /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FED1F012AA500F850BC /* back@2x.png */; };
+		EF7A901B1F012AA500F850BC /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FEE1F012AA500F850BC /* back@3x.png */; };
+		EF7A901C1F012AA500F850BC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FEF1F012AA500F850BC /* background.png */; };
+		EF7A901D1F012AA500F850BC /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF01F012AA500F850BC /* background@2x.png */; };
+		EF7A901E1F012AA500F850BC /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF11F012AA500F850BC /* background@3x.png */; };
+		EF7A901F1F012AA500F850BC /* card10.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF21F012AA500F850BC /* card10.png */; };
+		EF7A90201F012AA500F850BC /* card10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF31F012AA500F850BC /* card10@2x.png */; };
+		EF7A90211F012AA500F850BC /* card10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF41F012AA500F850BC /* card10@3x.png */; };
+		EF7A90221F012AA500F850BC /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF51F012AA500F850BC /* card2.png */; };
+		EF7A90231F012AA500F850BC /* card2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF61F012AA500F850BC /* card2@2x.png */; };
+		EF7A90241F012AA500F850BC /* card2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF71F012AA500F850BC /* card2@3x.png */; };
+		EF7A90251F012AA500F850BC /* card3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF81F012AA500F850BC /* card3.png */; };
+		EF7A90261F012AA500F850BC /* card3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FF91F012AA500F850BC /* card3@2x.png */; };
+		EF7A90271F012AA500F850BC /* card3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FFA1F012AA500F850BC /* card3@3x.png */; };
+		EF7A90281F012AA500F850BC /* card4.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FFB1F012AA500F850BC /* card4.png */; };
+		EF7A90291F012AA500F850BC /* card4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FFC1F012AA500F850BC /* card4@2x.png */; };
+		EF7A902A1F012AA500F850BC /* card4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FFD1F012AA500F850BC /* card4@3x.png */; };
+		EF7A902B1F012AA500F850BC /* card5.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FFE1F012AA500F850BC /* card5.png */; };
+		EF7A902C1F012AA500F850BC /* card5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A8FFF1F012AA500F850BC /* card5@2x.png */; };
+		EF7A902D1F012AA500F850BC /* card5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90001F012AA500F850BC /* card5@3x.png */; };
+		EF7A902E1F012AA500F850BC /* card6.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90011F012AA500F850BC /* card6.png */; };
+		EF7A902F1F012AA500F850BC /* card6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90021F012AA500F850BC /* card6@2x.png */; };
+		EF7A90301F012AA500F850BC /* card6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90031F012AA500F850BC /* card6@3x.png */; };
+		EF7A90311F012AA500F850BC /* card7.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90041F012AA500F850BC /* card7.png */; };
+		EF7A90321F012AA500F850BC /* card7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90051F012AA500F850BC /* card7@2x.png */; };
+		EF7A90331F012AA500F850BC /* card7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90061F012AA500F850BC /* card7@3x.png */; };
+		EF7A90341F012AA500F850BC /* card8.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90071F012AA500F850BC /* card8.png */; };
+		EF7A90351F012AA500F850BC /* card8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90081F012AA500F850BC /* card8@2x.png */; };
+		EF7A90361F012AA500F850BC /* card8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90091F012AA500F850BC /* card8@3x.png */; };
+		EF7A90371F012AA500F850BC /* card9.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A900A1F012AA500F850BC /* card9.png */; };
+		EF7A90381F012AA500F850BC /* card9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A900B1F012AA500F850BC /* card9@2x.png */; };
+		EF7A90391F012AA500F850BC /* card9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A900C1F012AA500F850BC /* card9@3x.png */; };
+		EF7A903A1F012AA500F850BC /* jack.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A900D1F012AA500F850BC /* jack.png */; };
+		EF7A903B1F012AA500F850BC /* jack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A900E1F012AA500F850BC /* jack@2x.png */; };
+		EF7A903C1F012AA500F850BC /* jack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A900F1F012AA500F850BC /* jack@3x.png */; };
+		EF7A903D1F012AA500F850BC /* king.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90101F012AA500F850BC /* king.png */; };
+		EF7A903E1F012AA500F850BC /* king@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90111F012AA500F850BC /* king@2x.png */; };
+		EF7A903F1F012AA500F850BC /* king@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90121F012AA500F850BC /* king@3x.png */; };
+		EF7A90401F012AA500F850BC /* queen.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90131F012AA500F850BC /* queen.png */; };
+		EF7A90411F012AA500F850BC /* queen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90141F012AA500F850BC /* queen@2x.png */; };
+		EF7A90421F012AA500F850BC /* queen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A90151F012AA500F850BC /* queen@3x.png */; };
 		EFC6FF881EF7D4E5001F51DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6FF871EF7D4E5001F51DD /* AppDelegate.swift */; };
 		EFC6FF8A1EF7D4E5001F51DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6FF891EF7D4E5001F51DD /* ViewController.swift */; };
 		EFC6FF8D1EF7D4E5001F51DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC6FF8B1EF7D4E5001F51DD /* Main.storyboard */; };
@@ -38,7 +84,53 @@
 
 /* Begin PBXFileReference section */
 		EF106B581EFA753A00F89E3C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EF1392071F0109C60000688C /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		EF26E2051EFBD65000F081DD /* FormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
+		EF7A8FE91F012AA500F850BC /* ace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace.png; sourceTree = "<group>"; };
+		EF7A8FEA1F012AA500F850BC /* ace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ace@2x.png"; sourceTree = "<group>"; };
+		EF7A8FEB1F012AA500F850BC /* ace@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ace@3x.png"; sourceTree = "<group>"; };
+		EF7A8FEC1F012AA500F850BC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EF7A8FED1F012AA500F850BC /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		EF7A8FEE1F012AA500F850BC /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		EF7A8FEF1F012AA500F850BC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EF7A8FF01F012AA500F850BC /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		EF7A8FF11F012AA500F850BC /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@3x.png"; sourceTree = "<group>"; };
+		EF7A8FF21F012AA500F850BC /* card10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10.png; sourceTree = "<group>"; };
+		EF7A8FF31F012AA500F850BC /* card10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card10@2x.png"; sourceTree = "<group>"; };
+		EF7A8FF41F012AA500F850BC /* card10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card10@3x.png"; sourceTree = "<group>"; };
+		EF7A8FF51F012AA500F850BC /* card2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card2.png; sourceTree = "<group>"; };
+		EF7A8FF61F012AA500F850BC /* card2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card2@2x.png"; sourceTree = "<group>"; };
+		EF7A8FF71F012AA500F850BC /* card2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card2@3x.png"; sourceTree = "<group>"; };
+		EF7A8FF81F012AA500F850BC /* card3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card3.png; sourceTree = "<group>"; };
+		EF7A8FF91F012AA500F850BC /* card3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card3@2x.png"; sourceTree = "<group>"; };
+		EF7A8FFA1F012AA500F850BC /* card3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card3@3x.png"; sourceTree = "<group>"; };
+		EF7A8FFB1F012AA500F850BC /* card4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card4.png; sourceTree = "<group>"; };
+		EF7A8FFC1F012AA500F850BC /* card4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card4@2x.png"; sourceTree = "<group>"; };
+		EF7A8FFD1F012AA500F850BC /* card4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card4@3x.png"; sourceTree = "<group>"; };
+		EF7A8FFE1F012AA500F850BC /* card5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card5.png; sourceTree = "<group>"; };
+		EF7A8FFF1F012AA500F850BC /* card5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card5@2x.png"; sourceTree = "<group>"; };
+		EF7A90001F012AA500F850BC /* card5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card5@3x.png"; sourceTree = "<group>"; };
+		EF7A90011F012AA500F850BC /* card6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card6.png; sourceTree = "<group>"; };
+		EF7A90021F012AA500F850BC /* card6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card6@2x.png"; sourceTree = "<group>"; };
+		EF7A90031F012AA500F850BC /* card6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card6@3x.png"; sourceTree = "<group>"; };
+		EF7A90041F012AA500F850BC /* card7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7.png; sourceTree = "<group>"; };
+		EF7A90051F012AA500F850BC /* card7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card7@2x.png"; sourceTree = "<group>"; };
+		EF7A90061F012AA500F850BC /* card7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card7@3x.png"; sourceTree = "<group>"; };
+		EF7A90071F012AA500F850BC /* card8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card8.png; sourceTree = "<group>"; };
+		EF7A90081F012AA500F850BC /* card8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card8@2x.png"; sourceTree = "<group>"; };
+		EF7A90091F012AA500F850BC /* card8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card8@3x.png"; sourceTree = "<group>"; };
+		EF7A900A1F012AA500F850BC /* card9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card9.png; sourceTree = "<group>"; };
+		EF7A900B1F012AA500F850BC /* card9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card9@2x.png"; sourceTree = "<group>"; };
+		EF7A900C1F012AA500F850BC /* card9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card9@3x.png"; sourceTree = "<group>"; };
+		EF7A900D1F012AA500F850BC /* jack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack.png; sourceTree = "<group>"; };
+		EF7A900E1F012AA500F850BC /* jack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack@2x.png"; sourceTree = "<group>"; };
+		EF7A900F1F012AA500F850BC /* jack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack@3x.png"; sourceTree = "<group>"; };
+		EF7A90101F012AA500F850BC /* king.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king.png; sourceTree = "<group>"; };
+		EF7A90111F012AA500F850BC /* king@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king@2x.png"; sourceTree = "<group>"; };
+		EF7A90121F012AA500F850BC /* king@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king@3x.png"; sourceTree = "<group>"; };
+		EF7A90131F012AA500F850BC /* queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen.png; sourceTree = "<group>"; };
+		EF7A90141F012AA500F850BC /* queen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen@2x.png"; sourceTree = "<group>"; };
+		EF7A90151F012AA500F850BC /* queen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen@3x.png"; sourceTree = "<group>"; };
 		EFC6FF841EF7D4E5001F51DD /* TestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC6FF871EF7D4E5001F51DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC6FF891EF7D4E5001F51DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +172,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF7A8FE71F012AA500F850BC /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A8FE81F012AA500F850BC /* Card Images */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		EF7A8FE81F012AA500F850BC /* Card Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A8FE91F012AA500F850BC /* ace.png */,
+				EF7A8FEA1F012AA500F850BC /* ace@2x.png */,
+				EF7A8FEB1F012AA500F850BC /* ace@3x.png */,
+				EF7A8FEC1F012AA500F850BC /* back.png */,
+				EF7A8FED1F012AA500F850BC /* back@2x.png */,
+				EF7A8FEE1F012AA500F850BC /* back@3x.png */,
+				EF7A8FEF1F012AA500F850BC /* background.png */,
+				EF7A8FF01F012AA500F850BC /* background@2x.png */,
+				EF7A8FF11F012AA500F850BC /* background@3x.png */,
+				EF7A8FF21F012AA500F850BC /* card10.png */,
+				EF7A8FF31F012AA500F850BC /* card10@2x.png */,
+				EF7A8FF41F012AA500F850BC /* card10@3x.png */,
+				EF7A8FF51F012AA500F850BC /* card2.png */,
+				EF7A8FF61F012AA500F850BC /* card2@2x.png */,
+				EF7A8FF71F012AA500F850BC /* card2@3x.png */,
+				EF7A8FF81F012AA500F850BC /* card3.png */,
+				EF7A8FF91F012AA500F850BC /* card3@2x.png */,
+				EF7A8FFA1F012AA500F850BC /* card3@3x.png */,
+				EF7A8FFB1F012AA500F850BC /* card4.png */,
+				EF7A8FFC1F012AA500F850BC /* card4@2x.png */,
+				EF7A8FFD1F012AA500F850BC /* card4@3x.png */,
+				EF7A8FFE1F012AA500F850BC /* card5.png */,
+				EF7A8FFF1F012AA500F850BC /* card5@2x.png */,
+				EF7A90001F012AA500F850BC /* card5@3x.png */,
+				EF7A90011F012AA500F850BC /* card6.png */,
+				EF7A90021F012AA500F850BC /* card6@2x.png */,
+				EF7A90031F012AA500F850BC /* card6@3x.png */,
+				EF7A90041F012AA500F850BC /* card7.png */,
+				EF7A90051F012AA500F850BC /* card7@2x.png */,
+				EF7A90061F012AA500F850BC /* card7@3x.png */,
+				EF7A90071F012AA500F850BC /* card8.png */,
+				EF7A90081F012AA500F850BC /* card8@2x.png */,
+				EF7A90091F012AA500F850BC /* card8@3x.png */,
+				EF7A900A1F012AA500F850BC /* card9.png */,
+				EF7A900B1F012AA500F850BC /* card9@2x.png */,
+				EF7A900C1F012AA500F850BC /* card9@3x.png */,
+				EF7A900D1F012AA500F850BC /* jack.png */,
+				EF7A900E1F012AA500F850BC /* jack@2x.png */,
+				EF7A900F1F012AA500F850BC /* jack@3x.png */,
+				EF7A90101F012AA500F850BC /* king.png */,
+				EF7A90111F012AA500F850BC /* king@2x.png */,
+				EF7A90121F012AA500F850BC /* king@3x.png */,
+				EF7A90131F012AA500F850BC /* queen.png */,
+				EF7A90141F012AA500F850BC /* queen@2x.png */,
+				EF7A90151F012AA500F850BC /* queen@3x.png */,
+			);
+			path = "Card Images";
+			sourceTree = "<group>";
+		};
 		EFC6FF7B1EF7D4E5001F51DD = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +255,7 @@
 		EFC6FF861EF7D4E5001F51DD /* TestApplication */ = {
 			isa = PBXGroup;
 			children = (
+				EF7A8FE71F012AA500F850BC /* Imagenes */,
 				EFC6FF871EF7D4E5001F51DD /* AppDelegate.swift */,
 				EFC6FF891EF7D4E5001F51DD /* ViewController.swift */,
 				EFC6FF8B1EF7D4E5001F51DD /* Main.storyboard */,
@@ -112,6 +265,7 @@
 				EFC6FF931EF7D4E5001F51DD /* Info.plist */,
 				EF106B581EFA753A00F89E3C /* MapViewController.swift */,
 				EF26E2051EFBD65000F081DD /* FormTableViewController.swift */,
+				EF1392071F0109C60000688C /* AnimationViewController.swift */,
 			);
 			path = TestApplication;
 			sourceTree = "<group>";
@@ -242,9 +396,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7A903C1F012AA500F850BC /* jack@3x.png in Resources */,
+				EF7A90281F012AA500F850BC /* card4.png in Resources */,
+				EF7A90371F012AA500F850BC /* card9.png in Resources */,
 				EFC6FF921EF7D4E5001F51DD /* LaunchScreen.storyboard in Resources */,
+				EF7A901D1F012AA500F850BC /* background@2x.png in Resources */,
+				EF7A901C1F012AA500F850BC /* background.png in Resources */,
+				EF7A901A1F012AA500F850BC /* back@2x.png in Resources */,
+				EF7A90181F012AA500F850BC /* ace@3x.png in Resources */,
+				EF7A90421F012AA500F850BC /* queen@3x.png in Resources */,
 				EFC6FF8F1EF7D4E5001F51DD /* Assets.xcassets in Resources */,
+				EF7A90351F012AA500F850BC /* card8@2x.png in Resources */,
+				EF7A90171F012AA500F850BC /* ace@2x.png in Resources */,
+				EF7A902A1F012AA500F850BC /* card4@3x.png in Resources */,
+				EF7A90201F012AA500F850BC /* card10@2x.png in Resources */,
+				EF7A90251F012AA500F850BC /* card3.png in Resources */,
+				EF7A90221F012AA500F850BC /* card2.png in Resources */,
+				EF7A902E1F012AA500F850BC /* card6.png in Resources */,
+				EF7A90231F012AA500F850BC /* card2@2x.png in Resources */,
+				EF7A90271F012AA500F850BC /* card3@3x.png in Resources */,
+				EF7A90361F012AA500F850BC /* card8@3x.png in Resources */,
+				EF7A90381F012AA500F850BC /* card9@2x.png in Resources */,
+				EF7A901E1F012AA500F850BC /* background@3x.png in Resources */,
+				EF7A902B1F012AA500F850BC /* card5.png in Resources */,
+				EF7A903F1F012AA500F850BC /* king@3x.png in Resources */,
+				EF7A90391F012AA500F850BC /* card9@3x.png in Resources */,
+				EF7A902D1F012AA500F850BC /* card5@3x.png in Resources */,
+				EF7A903B1F012AA500F850BC /* jack@2x.png in Resources */,
+				EF7A90291F012AA500F850BC /* card4@2x.png in Resources */,
+				EF7A90191F012AA500F850BC /* back.png in Resources */,
+				EF7A90411F012AA500F850BC /* queen@2x.png in Resources */,
+				EF7A902C1F012AA500F850BC /* card5@2x.png in Resources */,
 				EFC6FF8D1EF7D4E5001F51DD /* Main.storyboard in Resources */,
+				EF7A90341F012AA500F850BC /* card8.png in Resources */,
+				EF7A90301F012AA500F850BC /* card6@3x.png in Resources */,
+				EF7A903D1F012AA500F850BC /* king.png in Resources */,
+				EF7A90161F012AA500F850BC /* ace.png in Resources */,
+				EF7A903E1F012AA500F850BC /* king@2x.png in Resources */,
+				EF7A902F1F012AA500F850BC /* card6@2x.png in Resources */,
+				EF7A90401F012AA500F850BC /* queen.png in Resources */,
+				EF7A90241F012AA500F850BC /* card2@3x.png in Resources */,
+				EF7A90321F012AA500F850BC /* card7@2x.png in Resources */,
+				EF7A90311F012AA500F850BC /* card7.png in Resources */,
+				EF7A901B1F012AA500F850BC /* back@3x.png in Resources */,
+				EF7A90211F012AA500F850BC /* card10@3x.png in Resources */,
+				EF7A903A1F012AA500F850BC /* jack.png in Resources */,
+				EF7A90261F012AA500F850BC /* card3@2x.png in Resources */,
+				EF7A90331F012AA500F850BC /* card7@3x.png in Resources */,
+				EF7A901F1F012AA500F850BC /* card10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +471,7 @@
 				EFC6FF8A1EF7D4E5001F51DD /* ViewController.swift in Sources */,
 				EF26E2061EFBD65000F081DD /* FormTableViewController.swift in Sources */,
 				EFC6FF881EF7D4E5001F51DD /* AppDelegate.swift in Sources */,
+				EF1392081F0109C60000688C /* AnimationViewController.swift in Sources */,
 				EFF85A031EF9319400CE75E4 /* LocationListControllerTableViewController.swift in Sources */,
 				EF106B591EFA753A00F89E3C /* MapViewController.swift in Sources */,
 			);
